@@ -1,0 +1,188 @@
+body{
+  margin: 0;
+  width: 100%;
+  background-color: white;
+  font-family: sans-serif;
+}
+
+/*-----------------------------head banner------------------------*/
+
+.headerBannerContainer{
+  height: 60px;
+  width: 100%;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  background-color: darkgrey;
+}
+.headerBannerItem{
+  margin: auto;
+  padding: 0;
+}
+
+/*--------------------------navigation bar-------------------------*/
+
+.navMobileContainer{
+  display: flex;
+  background-color: white;
+  height: 60px;
+  padding:0;
+  text-decoration: none;
+  text-align: center;
+  align-items: center;
+}
+.navMobileItems{
+
+}
+.navMobileToggle, .search, .cart, .spacer{
+  width: 10%;
+  background-color: slategrey;
+}
+.home{
+  width: 60%;
+}
+
+/*-------------------------intro section---------------------------*/
+
+.firstBackgroundTheme{
+  background-color: lightgrey;
+  padding-bottom: 2rem;
+}
+.homepage1{
+  text-align: center;
+}
+.homepage1-image{
+  width:100%;
+  min-height: 270px;
+  background-color: paleTurquoise;
+}
+
+.homepage1 h2{
+  text-transform: uppercase;
+  font-size: 18px;
+  letter-spacing: 0.055em;
+}
+.homepage1 h3{
+  text-transform: capitalize;
+  font-size: 11px;
+  letter-spacing: 0.0175em;
+  margin-bottom: 2em;
+}
+.shopNow-btn{
+  width: 200px;
+  height: 45px;
+  background-color: black;
+  color: gainsboro;
+  margin: auto;
+  line-height: 45px;
+  text-transform: uppercase;
+  font-size: 13px;
+  letter-spacing: 0.06em;
+}
+.homepage2 {
+  text-align: center;
+  margin: 5%;
+}
+.homepage2 div{
+  padding-top: 30px;
+
+}
+.homepage2 h5{
+  margin-bottom: 0.75em;
+  text-transform: capitalize;
+  font-size: 12px;
+}
+.homepage2 h4{
+  margin-top: 0;
+  text-transform: uppercase;
+  font-size: 13px;
+  letter-spacing: 0.025em;
+}
+
+.homepage2-image1 div{
+  background-color: burlywood;
+  height: 270px;
+}
+.homepage2-image2 div{
+  background-color: wheat;
+  height: 270px;
+}
+.homepage2-image3 div{
+  background-color: tan;
+  height: 270px;
+}
+
+/*---------------------------- section with grid-------------------------*/
+
+.secondBackgroundTheme {
+  background-color: white;
+  padding: 10px;
+  padding-bottom: 70px;
+}
+.secondBackgroundThemeTop{
+  padding: 60px 0;
+  text-align: center;
+  width: 60%;
+  margin: auto;
+}
+.secondBackgroundThemeTop h2{
+  letter-spacing: .07em;
+}
+.secondBackgroundThemeTop h4{
+  color:darkgrey;
+  letter-spacing: .06em;
+  font-weight:normal;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 2em;
+}
+.flex-grid{
+  display: inline-block;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0;
+}
+.flex-grid .col{
+  background-color: rgba(130, 130, 130, 1);
+  color: black;
+  width: 47.5%;
+  height: 300px;
+  padding: 0;
+  margin-top:10px;
+  margin-bottom: 60px;
+  float:left;
+  /*line-height: 300px;*/
+  text-align: center;
+}
+.flex-grid .col:nth-child(2n){
+  margin-left: 5%;
+}
+.flex-grid .col .gridImage{
+  width: 100%;
+  height: 70%;
+  background-color: rgba(130, 130, 130, 1);
+  margin: 0;
+  padding: 0;
+}
+.flex-grid .col .gridImageInfo{
+  width: 100%;
+  height: 20%;
+  margin: 0;
+  padding: 0;
+  line-height: .1em;
+}
+
+/*---------------------------- section with storyBoard-------------------------*/
+
+.storyBoard {
+  background-color: lightgrey;
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+.storyBoard .story{
+  margin-bottom: 40px;
+}
+.storyBoard .storyPoster{
+  height: 300px;
+  background-color: darkgrey;
+}
